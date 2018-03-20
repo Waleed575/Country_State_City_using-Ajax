@@ -1,0 +1,57 @@
+body{
+    min-height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(abc.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    min-height: 95h;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(abc.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table
+{
+  margin: 0 auto;
+  margin-top: 30px;
+}
+h1
+{
+  color: white;
+text-align: center;  
+    
+}
+.text
+{
+ color: white;   
+}
+@media screen and (min-width: 336px)
+{
+    
+    table
+    {
+        flex-wrap: wrap;
+       justify-content: space-between;
+        align-items: baseline;
+    }
+
+}
+option{
+    background-color: yellow;
+    background: lightblue;
+    padding: 40px; 
+    
+}
+.stat{
+    width: 283px;
+}
